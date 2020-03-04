@@ -1,37 +1,81 @@
 main {
-    background-image: url("https://i.etsystatic.com/11598164/r/il/603140/862713218/il_570xN.862713218_66hg.jpg");
+  background-image: url("https://www.zingerbug.com/Backgrounds/background_images/gray_parchment_paper_background_1800x1600.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #59AAA5;
-    font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #59aaa5;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 1rem 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  border-bottom: 2px solid #dddddd;
 }
 
+p {
+    color: #77778d;
+}
 
 .navbar-brand {
-    padding: 1rem 2rem;
-    line-height: 1.5;
-    box-sizing: border-box;
+  padding: 1rem 2rem;
+  font-size: 24px;
+  line-height: 1.5;
+  box-sizing: border-box;
 }
 
-.navbar-light .navbar-brand{
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    background-color: #59AAA5;
-
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: #59aaa5;
 }
 
 .nav-link {
-    color: gray;
-
+  color: #999999;
+  font-size: small;
 }
 
 .navbar {
-    padding: 0 2rem;
+  padding: 0 2rem;
+  border-bottom: 1px solid #cccccc;
 }
 
 .container {
-    background-color: #fff;
+  background-color: #fff;
+  width: 600px;
+  height: auto;
+  position: relative;
+  border: 1px solid #dddddd;
+}
+
+.about-image {
+  width: 200px;
+}
+
+.portfolio-image {
+    float: center;
+    width: 260px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+    box-sizing: border-box;
+    color: #77778d;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 14px;
+}
+
+#contact-name,
+#contact-email,
+#contact-message {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
