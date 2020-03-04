@@ -1,4 +1,37 @@
-.navbar-teal {
+main {
+    background-image: url("https://i.etsystatic.com/11598164/r/il/603140/862713218/il_570xN.862713218_66hg.jpg");
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #59AAA5;
+    font-weight: bold;
+}
+
+
+.navbar-brand {
+    padding: 1rem 2rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     background-color: #59AAA5;
-    z-index: 5;
+
+}
+
+.nav-link {
+    color: gray;
+
+}
+
+.navbar {
+    padding: 0 2rem;
+}
+
+.container {
+    background-color: #fff;
 }
